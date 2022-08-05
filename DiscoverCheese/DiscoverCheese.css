@@ -1,0 +1,67 @@
+h1.hd {
+    font-family:Georgia;
+    font-size:60px;
+    color:black;
+    text-align:center;
+    margin:0;
+    vertical-align: middle;
+}
+
+body {
+    background:gold;
+    text-align: center;
+    margin: 0;
+}
+
+div.dv { 
+    width:100vw;
+    height:120px;
+    position:top;
+    background-image: url('Cheese Background.jpg')
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.dv2 {
+    display: flex;
+    width:50%;
+    height:42vh;
+    padding:10px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid gold;
+    vertical-align:top;
+}
+
+p {
+    width:50%;
+    height:100%;
+    background-color:maroon;
+    text-align:center;
+    font-size:18px;
+    margin:0;
+    font:timesnewroman;
+    color:goldenrod;
+}
+
+.breakable {
+    word-wrap: break-word;
+}
+
+img {
+    width:50%;
+    height:100%;
+    text-align:right;
+    margin: 0;
+}
+
+.title {
+    font-weight:bold;
+    font-size:30px;
+
+}
+

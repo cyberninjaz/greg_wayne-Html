@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=EB+Garamond:wght@500&display=swap');
+
+.appear {
+    display:flex;
+}
+
+.attributions {
+    width:100%;
+    font-family:'Times New Roman';
+    font-size:18px;
+    margin:7%;
+    color:goldenrod;
+}
+
+.attributionsTitle {
+    font-family:'Times New Roman';
+    font-size:40px;
+    font-weight:bold;
+}
+
+.backButtons {
+    width:6em;
+    height:2em;
+    background-color:rgb(165, 12, 12);
+    font-family:times;
+    color:rgb(105, 105, 105);
+    text-align:center;
+    border:1px ridge rgb(105,105,105);
+    font-size:25px;
+    margin:0px;
+    margin-left:1em;
+    margin-top:1.2em;
+    margin-bottom:1em;
+}
+
+body {
+    margin:0;
+    background-color:rgb(2, 0, 51);
+    min-height: 100vh;
+}
+
+.buttonBox {
+    display: flex;
+    width: 33%;
+    padding:10px;
+    box-sizing: border-box;
+    vertical-align:right;
+    margin:0px;
+    position: relative;
+    flex-wrap:wrap
+}
+
+.discovImg {
+    height:50%;
+    width:50%;
+    border:2px ridge rgb(105,105,105);
+    box-sizing:border-box;
+}
+
+.discoverText {
+    width:40%;
+    font-family:'Times New Roman';
+    font-size:25px;
+    padding:7%;
+    margin:0px;
+    color:goldenrod;
+}
+
+header {
+    width: 100%;
+    position:top;
+    background-image:url(Rails.jpg);
+    margin:0;
+}
+
+header h1 {
+    color:goldenrod;
+    font-size:80;
+    margin: 0;
+    vertical-align:middle;
+    text-align:center;
+    font-family: 'EB Garamond', serif;
+}
+
+.imgBox1 {
+    display: flex; 
+    width:60%;
+    margin:0px;
+    margin-top:3em;
+    position:relative;
+    flex-wrap:wrap;
+    
+}
+
+.imgBox2 {
+    display:flex;
+    width:40%;
+    margin:0px;
+    margin-top:3em;
+    position:relative;
+    flex-wrap:wrap;
+}
+
+main {
+    width: 100%;
+    vertical-align:bottom;
+    display: none;
+    flex-wrap: wrap;
+    margin:0px;
+}
+
+.sendingButtons {
+    width:20em;
+    height:2em;
+    background-color:rgb(165, 12, 12);
+    font-family:times;
+    color:rgb(105, 105, 105);
+    text-align:center;
+    margin-top:2.5em;
+    margin-left:3em;
+    margin-right:3em;
+    border:1px ridge rgb(105,105,105);
+    font-size:30px;
+
+}
+
+.titleImg {
+    width:33%;
+    border:2px ridge rgb(105, 105, 105);
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#gameBoard {
+    position:relative;
+    height:68vh;
+    width:100vw;
+    overflow:hidden;
+    background-image:url(Grass.jpg);
+    text-align:center;
+    margin:0px;
+    padding:0px;
+}
+
+#go {
+    position:absolute;
+    height:68vh;
+    width:100vw;
+    text-align:center;
+    margin:0px;
+    font-family:'Times New Roman';
+    font-size:140;
+    font-weight:bold;
+    color:goldenrod;
+    background-color:brown;
+    padding-top:1.1em;
+    display:none;
+}
+
+.instructions {
+    height:15vh;
+    width:30vw;
+    padding:0px;
+    color:white;
+    margin:1em;
+    font-family:'Times New Roman';
+    font-size:15px;
+}
+
+.playButton {
+    height:15vh;
+    width:30vw;
+    margin:0px;
+    padding:0px;
+    background-color:black;
+    border:2px ridge goldenrod;
+    box-sizing: border-box;
+    color:goldenrod;
+    font-family:'Times New Roman';
+    font-size:40px;
+    font-weight:bold;
+    margin-left:1em;
+}
+
+.scoreBoard {
+    height:15vh;
+    width:20vw;
+    margin:0px;
+    background-color:rgb(117, 67, 47);
+    color:goldenrod;
+    font-size:30px;
+    text-align:center;
+    border: 2px ridge goldenrod;
+    box-sizing:border-box;
+    font-family:'Times New Roman';
+    font-weight:bold;
+    margin-left:1em;
+    padding:0px;
+    padding-top:1.2em;
+}
+
+
+
+
+
+
+#con {
+    position:absolute;
+    top:40%;
+    left:20%;
+    height:15%;
+    width:6%;
+    margin:0px;
+    padding:0px;
+    transition:all 0.1s linear 0s;
+}
+
+.train{
+    position:absolute;
+    top:0%;
+    left:0%;
+    height:100%;
+    width:15%;
+    margin:0px;
+    padding:0px;
+}
+
+.wm {
+    position:absolute;
+    top:50%;
+    left:100%;
+    transition:0.1s linear 0s;
+    height:10%;
+    width:4%;
+    margin:0px;
+    padding:0px;
+}
+
+
